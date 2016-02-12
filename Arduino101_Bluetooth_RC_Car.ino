@@ -102,7 +102,7 @@ void loop() {
           default:
             digitalWrite(motorL1, HIGH); 
             digitalWrite(motorL2, HIGH); 
-            digitalWrite(motorR1, LOW); 
+            digitalWrite(motorR1, HIGH); 
             digitalWrite(motorR2, HIGH); 
             break; 
         }

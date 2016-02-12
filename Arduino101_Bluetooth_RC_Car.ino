@@ -85,19 +85,19 @@ void loop() {
             digitalWrite(motorL1, LOW); 
             digitalWrite(motorL2, HIGH); 
             digitalWrite(motorR1, HIGH); 
-            digitalWrite(motorR2, HIGH); 
+            digitalWrite(motorR2, LOW); 
             break; 
           case '4': // left
-            digitalWrite(motorL1, HIGH); 
-            digitalWrite(motorL2, LOW); 
-            digitalWrite(motorR1, HIGH); 
+            digitalWrite(motorL1, LOW); 
+            digitalWrite(motorL2, HIGH); 
+            digitalWrite(motorR1, LOW); 
             digitalWrite(motorR2, HIGH); 
             break; 
           case '6': // right
             digitalWrite(motorL1, HIGH); 
-            digitalWrite(motorL2, HIGH); 
-            digitalWrite(motorR1, LOW); 
-            digitalWrite(motorR2, HIGH); 
+            digitalWrite(motorL2, LOW); 
+            digitalWrite(motorR1, HIGH); 
+            digitalWrite(motorR2, LOW); 
             break; 
           default:
             digitalWrite(motorL1, HIGH); 
